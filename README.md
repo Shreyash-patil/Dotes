@@ -29,6 +29,8 @@ To run this project on your local device:
 1. **Clone the repository**  
    `git clone https://github.com/yourusername/Dotes.git && cd Dotes`
 
+1.5 **Unzip main.zip**
+
 2. **Install dependencies**  
    `npm install` or `yarn install`
 

@@ -1,50 +1,61 @@
-# Welcome to your Expo app 👋
+# 📒 Dotes - Notes & Task Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Dotes** is a productivity-focused mobile app built using **React Native (Expo)**. It allows users to manage personal notes and to-do tasks in one intuitive and beautifully designed interface. The app features **light/dark theme support**, **offline data persistence using AsyncStorage**, and **smooth UI animations** for a delightful user experience.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+- Add, edit, and delete notes
+- Create and manage to-do tasks
+- Dynamic theme switching (light & dark modes)
+- Data stored locally using AsyncStorage (works offline)
+- Smooth transitions using React Native Reanimated
+- Minimal and clean UI built for usability
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
 
-2. Start the app
+- **Framework:** React Native (Expo)
+- **State Management:** Context API
+- **Storage:** AsyncStorage
+- **Animations:** React Native Reanimated
+- **AI Tools Used:** ChatGPT, Grok, DeepSeek, Bolt.ai (for UI and logic refinement)
 
-   ```bash
-    npx expo start
-   ```
+## 📂 Folder Structure
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+To run this project on your local device:
 
-## Get a fresh project
+1. **Clone the repository**  
+   `git clone https://github.com/yourusername/Dotes.git && cd Dotes`
 
-When you're ready, run:
+2. **Install dependencies**  
+   `npm install` or `yarn install`
 
-```bash
-npm run reset-project
-```
+3. **Start Expo**  
+   `expo start`
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+4. **Run the app**  
+   Use the QR code with Expo Go or run it in an emulator.
 
-## Learn more
+## 📸 Screenshots
 
-To learn more about developing your project with Expo, look at the following resources:
+> Add screenshots of the app's UI here, showing both themes and features.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 💡 Future Enhancements
 
-## Join the community
+- Cloud sync via Firebase or Supabase  
+- Task reminders and push notifications  
+- Search functionality and note tagging  
+- Biometric or PIN lock for privacy  
 
-Join our community of developers creating universal apps.
+## 🙋‍♂️ Author
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Shreyash Patil**  
+MCA Candidate | Mobile & Web Developer  
+Email: your.email@example.com  
+GitHub: [@yourusername](https://github.com/yourusername)
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

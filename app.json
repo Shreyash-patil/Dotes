@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Dotes",
+    "slug": "Dotes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logoicons/Dotes-app-icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shreyash_patil.Dotes"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logoicons/Dotes-app-icon.png",
+        "backgroundColor": "#1c1c1c"
+      },
+      "permissions": [],
+      "package": "com.shreyash_patil.Dotes"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9c11d889-0d15-4b2d-9481-745d133553fc"
+      }
+    }
+  }
+}
